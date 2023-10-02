@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{DDFE3087-3211-4862-9293-901207ADE78D}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="RadioPlayer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DUnit\DUnit.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="RadioPlayer">
+        <MSBuild Projects="RadioPlayer.dproj"/>
+    </Target>
+    <Target Name="RadioPlayer:Clean">
+        <MSBuild Projects="RadioPlayer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RadioPlayer:Make">
+        <MSBuild Projects="RadioPlayer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DUnit">
+        <MSBuild Projects="DUnit\DUnit.dproj"/>
+    </Target>
+    <Target Name="DUnit:Clean">
+        <MSBuild Projects="DUnit\DUnit.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DUnit:Make">
+        <MSBuild Projects="DUnit\DUnit.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="RadioPlayer;DUnit"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="RadioPlayer:Clean;DUnit:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="RadioPlayer:Make;DUnit:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

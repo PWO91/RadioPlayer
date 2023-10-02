@@ -1,0 +1,315 @@
+object FrmPlayer: TFrmPlayer
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 436
+  ClientWidth = 392
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Container: TLayout
+    Align = Client
+    Size.Width = 392.000000000000000000
+    Size.Height = 436.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Layout1: TLayout
+      Align = Top
+      Size.Width = 392.000000000000000000
+      Size.Height = 193.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Layout5: TLayout
+        Align = Top
+        Size.Width = 392.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Rectangle1: TRectangle
+          Align = Top
+          Corners = [BottomLeft, BottomRight]
+          Fill.Color = claBlack
+          Size.Width = 392.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Thickness = 0.000000000000000000
+          XRadius = 5.000000000000000000
+          YRadius = 5.000000000000000000
+        end
+        object Image3: TImage
+          MultiResBitmap = <
+            item
+              Width = 24
+              Height = 24
+              PNG = {
+                89504E470D0A1A0A0000000D4948445200000018000000180806000000E0773D
+                F8000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                01ED49444154484BED943D4B23511486333321893371158B8515ACEC44F20714
+                84052D95142109A4CE0F50411BAD770BADACD22526290C2896EE8229447F4064
+                D96EC9162208826826483E7DCF9D933B86714C3482203E70391F77F29E7B72E6
+                8EE7937747612B89C562E3AAAAAEB7DBED25D861A46EB18E10FFCCE7F3FFE899
+                68343AE9F57AD7E02E607DC1A2670EB17EE472B94B58495781783C3E07D17DB8
+                6356C6A6D96CDE298A12C152B1F6900A5A3B368D46E31A85C32872C229BB004E
+                3581CD73B82356C649B55A350381808243E89C728022377EBF7F3A93C95C50AC
+                8A2C80F82A8CAB38A1EBBAF19C38019DD17ABD4E5A0259002CB21D181C426AC9
+                0218E2377607A652A98CB3DBD5C17FB603130C06CBECDA05F06664D87D0B76D9
+                760D790B46561E8032B4B6D9B70BA4D3E97B7421A7FF4A30CAF60A6971ECD1D8
+                0A4AA5D2DF5028340477D6CABC0CBEED3B1C0A1E0F596018C6064CD18AFA07E2
+                C718EE268712C7B788482693BA699ABFE0CE58999E9CE2600BA954AACAB1E4C9
+                02442291F88A6B5FD4346D8A536EFCC1ECBE67B3D92B8EBB70FC451DE807F8A6
+                CCA0F5334E39A03DBC31B36EE2846B071DD089D16AB50E70CA794E0920FE1B9F
+                8430C44D4E3D896B071D4880845084662220BF1F71A267071D229188E6F3F9C4
+                05AAD56ACB8542A129363E381ECF0317F19C56EC94A0690000000049454E44AE
+                426082}
+              FileName = 'C:\Users\p.wojcik\Desktop\Fmx demo\Images\Love_24px.png'
+            end>
+          Anchors = [akTop, akRight]
+          Position.X = 360.000000000000000000
+          Position.Y = 7.000000000000000000
+          Size.Width = 24.000000000000000000
+          Size.Height = 24.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object LbTitle: TLabel
+        Align = Top
+        StyledSettings = [Family, FontColor]
+        Position.Y = 41.000000000000000000
+        Size.Width = 392.000000000000000000
+        Size.Height = 112.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 28.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        Text = 'LbTitle'
+        TabOrder = 0
+      end
+      object GridPanelLayout1: TGridPanelLayout
+        Align = Bottom
+        Position.Y = 120.000000000000000000
+        Size.Width = 392.000000000000000000
+        Size.Height = 73.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        ColumnCollection = <
+          item
+            Value = 50.000000000000000000
+          end
+          item
+            Value = 50.000000000000000000
+          end>
+        ControlCollection = <>
+        RowCollection = <
+          item
+            Value = 100.000000000000000000
+          end>
+      end
+    end
+    object Layout2: TLayout
+      Align = Client
+      Size.Width = 392.000000000000000000
+      Size.Height = 243.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object ArcVolume: TArcDial
+        Align = Center
+        RotationAngle = 90.000000000000000000
+        Size.Width = 223.000000000000000000
+        Size.Height = 224.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        OnChange = ArcVolumeChange
+        object GlowEffect1: TGlowEffect
+          Softness = 0.400000005960464500
+          GlowColor = claSilver
+          Opacity = 0.899999976158142100
+        end
+      end
+      object Circle1: TCircle
+        Align = Center
+        Fill.Color = claWhite
+        Size.Width = 147.000000000000000000
+        Size.Height = 130.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.100000001490116100
+        object GlowEffect2: TGlowEffect
+          Softness = 0.400000005960464500
+          GlowColor = claSilver
+          Opacity = 0.899999976158142100
+        end
+        object Circle2: TCircle
+          Align = Center
+          Fill.Color = claSpringgreen
+          Size.Width = 123.000000000000000000
+          Size.Height = 118.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Thickness = 0.100000001490116100
+          OnClick = Circle2Click
+        end
+        object ImPlay: TImage
+          MultiResBitmap.Height = 96
+          MultiResBitmap.Width = 96
+          MultiResBitmap = <
+            item
+              Width = 96
+              Height = 96
+              PNG = {
+                89504E470D0A1A0A0000000D4948445200000060000000600806000000E29877
+                38000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                029349444154785EEDD8BF6B53511407F097446D2020193B3A48A163E9268E0E
+                599C0A86244FB2756CEB5F90EA7F20B8B89A1F8B75D2D1511C844287B660799B
+                B34321430AA1F1BCBE5B8890D21E48EF3DE7DCEF071EAFEF7669DEF7DD93EF6B
+                020000000000000000000000000000B02CED76FBA0D96C3E7197D12BBBB337A5
+                52696B3A9D9E753A9DF7743C76CBD1F21E40AE5AAD3EA4D3CE6C36FB4D3B62BB
+                D7EB05F93B2408FAC16937ACD2F131CBB25F699A3E73CB5191F2E46DD26EF841
+                23E953B7DB5D756B5190B4F54B74BC1E8FC71905B1DF6834568A65DBC4CD5EFA
+                7EA8D1A957AFD78F5BADD6CB62D5AEFCA9F38A9EEE99FBF1AEBED3B13B1C0E4F
+                8B4B5B34B48F1793C9E4C86A6DD51080E9DAAAEA8358ACAD5A9F2433B555F356
+                36515BD5CF52EDB555430DE552555BCDB48939AA6AABC50054D55693015CD350
+                5B4D0730476C6D8D25809CC8DA1A530057A4D5568B35942B686D8D6E072C10B4
+                B6220012B2B6228039216A2B0258CC5B6D450037F3525B11C02DEEBBB622803B
+                AA542A0FE878E42E970601DCEE9C8EBD5AADB636180CBE144BCB8317B11BD0BB
+                C1258D9F0FE572F95DBFDFFFEB96970E012C400DE8279D7646A3D161B1727F30
+                82FEF7876EFE2BBAF1CF7DDCFC1C022074D32FE8F4965EC2D6E9C67FCE97AE7E
+                E1014650927CA31BFF86BE603377ED55CC019CD093BF474F7CFEDFD060621C41
+                D7B57223F4CDCF45B3037CD54AAE2802F0592BB9AC8F20EFB592CB6400216B25
+                97C51114B45672590A4044ADE4B2308244D54A2EB53B406AADE4521980E45AC9
+                A56D0489AF955C2A02D0542BB9348C2055B5924B72002A6B2597C411A4BA5672
+                89D901566A259788002CD54AAED023C85CADE40A1280E55A291E8DA0AF699A3E
+                75970000000000000000000000000000004625C93F545277C6B877E35A000000
+                0049454E44AE426082}
+              FileName = 'C:\Users\p.wojcik\Desktop\Fmx demo\Images\Play_96px.png'
+            end>
+          Align = Center
+          HitTest = False
+          Size.Width = 78.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object ImPause: TImage
+          MultiResBitmap.Height = 96
+          MultiResBitmap.Width = 96
+          MultiResBitmap = <
+            item
+              Width = 96
+              Height = 96
+              PNG = {
+                89504E470D0A1A0A0000000D4948445200000060000000600806000000E29877
+                38000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                00BC49444154785EEDD1B10DC3301004415A6DB23ED669258C945AC60AC24CF2
+                1F1EB00300000000000080D7FAEC7B9B39E777BFB7586BFDB4F1697BAE8E7D89
+                0810132026404C80980031016202C404880910132026404C80980031016202C4
+                04880910132026404C80980031016202C404880910132026404C809800310162
+                02C404880910132026404C80980031016202C404880910132026404C80980031
+                016202C404880910132026404C809800310100000000000000E02FC638019460
+                08709B23FFFD0000000049454E44AE426082}
+              FileName = 'C:\Users\p.wojcik\Desktop\Fmx demo\Images\Pause_96px.png'
+            end>
+          Align = Center
+          HitTest = False
+          Size.Width = 78.000000000000000000
+          Size.Height = 81.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object Layout3: TLayout
+        Align = Right
+        Position.X = 342.000000000000000000
+        Size.Width = 50.000000000000000000
+        Size.Height = 243.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object Image1: TImage
+          MultiResBitmap.Width = 24
+          MultiResBitmap = <
+            item
+              Width = 24
+              Height = 24
+              PNG = {
+                89504E470D0A1A0A0000000D4948445200000018000000180806000000E0773D
+                F8000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                014A49444154484BDD95BD4E85401085F927763616FA005ADDD25E6FF4561616
+                14040A5A735FC89A0242C11398A885A51A1363A12FA08589DA420278C65D132E
+                91FDC14ABF64C3EC4E720E336116E3FF1345D14910041B7CAB8DC59F3F12C7F1
+                D234CD53DFF7CFA79A080D1CC7C9DBB6BD4638437C1586E116CBA863F2E72849
+                92ACD7757D6659D66ED3344F389A1745F1CCB272841510699A7E789EB7A04A6C
+                DBDEC1D1055AB7C9B272A4157C33AC0466FB5996BDF0F428CA06C414132D0342
+                D744DB80E89B60FB88351F33996440D05CD07C209C61DD5555755096E5DB57B2
+                87F42B52640D663E8F579854010D1CDA738929DFC6F69EBFFD2BCBAEA26DA023
+                4E68B568207EDB75DD9E489C50AEA02F0EE11B1C2DF23C7F67D971940CA68A13
+                D2160DC55DD73D54152784067D71BAEC489C2E3F9E564268806BE0988B3F203E
+                D21557E2B7BFCCBF8E617C02F429A16EC5F905E80000000049454E44AE426082}
+              FileName = 'C:\Users\p.wojcik\Desktop\Fmx demo\Images\Forward_24px.png'
+            end>
+          Align = Center
+          Size.Width = 25.000000000000000000
+          Size.Height = 24.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object Layout4: TLayout
+        Align = Left
+        Size.Width = 50.000000000000000000
+        Size.Height = 243.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Image2: TImage
+          MultiResBitmap.Width = 24
+          MultiResBitmap = <
+            item
+              Width = 24
+              Height = 24
+              PNG = {
+                89504E470D0A1A0A0000000D4948445200000018000000180806000000E0773D
+                F8000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                014A49444154484BDD95BD4E85401085F927763616FA005ADDD25E6FF4561616
+                14040A5A735FC89A0242C11398A885A51A1363A12FA08589DA420278C65D132E
+                91FDC14ABF64C3EC4E720E336116E3FF1345D14910041B7CAB8DC59F3F12C7F1
+                D234CD53DFF7CFA79A080D1CC7C9DBB6BD4638437C1586E116CBA863F2E72849
+                92ACD7757D6659D66ED3344F389A1745F1CCB272841510699A7E789EB7A04A6C
+                DBDEC1D1055AB7C9B272A4157C33AC0466FB5996BDF0F428CA06C414132D0342
+                D744DB80E89B60FB88351F33996440D05CD07C209C61DD5555755096E5DB57B2
+                87F42B52640D663E8F579854010D1CDA738929DFC6F69EBFFD2BCBAEA26DA023
+                4E68B568207EDB75DD9E489C50AEA02F0EE11B1C2DF23C7F67D971940CA68A13
+                D2160DC55DD73D54152784067D71BAEC489C2E3F9E564268806BE0988B3F203E
+                D21557E2B7BFCCBF8E617C02F429A16EC5F905E80000000049454E44AE426082}
+              FileName = 'C:\Users\p.wojcik\Desktop\Fmx demo\Images\Forward_24px.png'
+            end>
+          Align = Center
+          RotationAngle = 180.000000000000000000
+          Size.Width = 25.000000000000000000
+          Size.Height = 24.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object LbVolume: TLabel
+        Anchors = [akLeft, akRight, akBottom]
+        StyledSettings = [Family]
+        Position.X = 136.000000000000000000
+        Position.Y = 200.000000000000000000
+        Size.Width = 123.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claSilver
+        TextSettings.HorzAlign = Center
+        Text = '0.0'
+        TabOrder = 3
+      end
+    end
+  end
+  object TimerGuiUpdate: TTimer
+    Interval = 500
+    OnTimer = TimerGuiUpdateTimer
+    Left = 328
+    Top = 32
+  end
+  object TimerVisUpdate: TTimer
+    Interval = 5
+    OnTimer = TimerVisUpdateTimer
+    Left = 224
+    Top = 32
+  end
+end

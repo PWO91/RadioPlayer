@@ -1,0 +1,35 @@
+object FrmPlayerFavorites: TFrmPlayerFavorites
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 393
+  ClientWidth = 432
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Container: TLayout
+    Align = Client
+    Size.Width = 432.000000000000000000
+    Size.Height = 393.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object LbStations: TListBox
+      Align = Client
+      Size.Width = 432.000000000000000000
+      Size.Height = 393.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'ListBox1Style1'
+      TabOrder = 0
+      ShowScrollBars = False
+      CanFocus = False
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = ''
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      Viewport.Width = 432.000000000000000000
+      Viewport.Height = 393.000000000000000000
+    end
+  end
+end

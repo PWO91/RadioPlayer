@@ -1,0 +1,130 @@
+object PlayerFrmChannels: TPlayerFrmChannels
+  Left = 780
+  Top = 232
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 446
+  Position = Designed
+  StyleBook = PlayerFrmMain.StyleBook1
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  Left = 780
+  Top = 232
+  DesignerMasterStyle = 0
+  object Container: TLayout
+    Align = Client
+    Size.Width = 446.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object LbStations: TListBox
+      Align = Client
+      Size.Width = 446.000000000000000000
+      Size.Height = 391.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'ListBox1Style1'
+      TabOrder = 0
+      ShowScrollBars = False
+      CanFocus = False
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = ''
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      Viewport.Width = 446.000000000000000000
+      Viewport.Height = 391.000000000000000000
+    end
+    object HeaderSearch: TRectangle
+      Align = Top
+      Corners = [BottomLeft, BottomRight]
+      Fill.Color = claBlack
+      Size.Width = 446.000000000000000000
+      Size.Height = 89.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 5.000000000000000000
+      YRadius = 5.000000000000000000
+      object EdSearchStation: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        StyleLookup = 'LoginInput'
+        TabOrder = 0
+        Position.X = 10.000000000000000000
+        Position.Y = 30.000000000000000000
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 426.000000000000000000
+        Size.Height = 43.000000000000000000
+        Size.PlatformDefault = False
+        OnChange = EdSearchStationChange
+        object ImgSearch: TImage
+          MultiResBitmap.Height = 24
+          MultiResBitmap.Width = 24
+          MultiResBitmap = <
+            item
+              Width = 24
+              Height = 24
+              PNG = {
+                89504E470D0A1A0A0000000D4948445200000018000000180806000000E0773D
+                F8000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                01A649444154484BDD944B4EC2501486DB92C280302021D1A5E8D46064AE242D
+                30266A74032EC00D6824610A941A8D1B5007CC343EE22648F0B50114EA7F4E4E
+                9B40BDB7284CF44BE03C7AEF79DC9E5EE3CF638A8CE1BA6EC3B2AC6D31992008
+                1A9EE7ED8A3913B104954AA5689AE6A5982A8A9D4EE75A742D964806556F84C1
+                51ED7D369B4D239049BFE17098198FC78FBCD030AE6AB5DABAE85A263AA856AB
+                014904DFC4515CB0730AACD98238239D1293D4117580A339214995AB8213087A
+                1E76823D47ECD41025C0D1EC90ECF7FBABECD090CBE5564862CF1E3B344CBC03
+                A2D7EB7D8AAAA4D96C7E889A482CC1A289252897CB695195944AA58CA8894409
+                E8232269DBF60D3B34E4F3F95B92D873CC0E0DAA31753049A7EC9CC2711C3795
+                4A79A4FF684C8522FD613A7C8CE05DBD5EB7D90BE8E8F0213E84C131AAFBFC20
+                815805A8700D41B4D7003A3C401187A4432EB5DBED177EF00DCA16932EBBF038
+                09AC2BB45AAD773127483C431528A080C0AF621AA3D168D9F7FD6731237E9D80
+                9825C95C0988A424732720744916725574BBDD379A2631E9A53F89BA58A8134C
+                D740CC7F81617C01AF1CA4C1DC213DF10000000049454E44AE426082}
+              FileName = 'C:\Users\p.wojcik\Desktop\Fmx demo\Images\Search_96px.png'
+            end>
+          Opacity = 0.200000002980232200
+          Position.X = 9.000000000000000000
+          Position.Y = 10.000000000000000000
+          Size.Width = 25.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object BtAdd: TButton
+          Align = Right
+          StyledSettings = [Family, Size, Style]
+          Opacity = 0.800000011920929000
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Position.X = 379.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Width = 37.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'NavButton1'
+          TabOrder = 0
+          Text = '+'
+          TextSettings.FontColor = claWhite
+          OnClick = BtAddClick
+        end
+      end
+      object LbSearch: TLabel
+        Align = Top
+        StyledSettings = [Family]
+        Margins.Left = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Size.Width = 441.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Channels'
+        TabOrder = 2
+      end
+    end
+  end
+end

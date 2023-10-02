@@ -1,0 +1,33 @@
+object FrmPlayerNews: TFrmPlayerNews
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 410
+  ClientWidth = 420
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Container: TLayout
+    Align = Client
+    Size.Width = 420.000000000000000000
+    Size.Height = 410.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object LbNews: TListBox
+      Align = Client
+      Size.Width = 420.000000000000000000
+      Size.Height = 410.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      ShowScrollBars = False
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = ''
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      Viewport.Width = 420.000000000000000000
+      Viewport.Height = 410.000000000000000000
+    end
+  end
+end
