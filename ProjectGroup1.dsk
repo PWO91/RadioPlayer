@@ -13,11 +13,11 @@ File_9=TSourceModule,'C:\Users\p.wojcik\Desktop\PlayerProject\BASS\Add-ons\BassE
 [Modules]
 Module0=C:\Users\p.wojcik\Desktop\PlayerProject\DUnit\Tests.pas
 Module1=C:\Users\p.wojcik\Desktop\PlayerProject\Player.Common.pas
-Module2=default.htm
-Module3=C:\Users\p.wojcik\Desktop\PlayerProject\Player.Frm.Main.pas
-Module4=C:\Users\p.wojcik\Desktop\PlayerProject\Player.Frm.Channels.pas
-Module5=c:\program files (x86)\embarcadero\studio\21.0\source\fmx\FMX.Controls.pas
-Module6=C:\Users\p.wojcik\Desktop\PlayerProject\Player.Frm.Channels.Edit.pas
+Module2=C:\Users\p.wojcik\Desktop\PlayerProject\Player.Frm.Main.pas
+Module3=C:\Users\p.wojcik\Desktop\PlayerProject\Player.Frm.Channels.pas
+Module4=c:\program files (x86)\embarcadero\studio\21.0\source\fmx\FMX.Controls.pas
+Module5=C:\Users\p.wojcik\Desktop\PlayerProject\Player.Frm.Channels.Edit.pas
+Module6=default.htm
 Count=7
 EditWindowCount=1
 
@@ -26,9 +26,6 @@ ModuleType=TSourceModule
 
 [C:\Users\p.wojcik\Desktop\PlayerProject\Player.Common.pas]
 ModuleType=TSourceModule
-
-[default.htm]
-ModuleType=TURLModule
 
 [C:\Users\p.wojcik\Desktop\PlayerProject\Player.Frm.Main.pas]
 ModuleType=TSourceModule
@@ -41,6 +38,9 @@ ModuleType=TSourceModule
 
 [C:\Users\p.wojcik\Desktop\PlayerProject\Player.Frm.Channels.Edit.pas]
 ModuleType=TSourceModule
+
+[default.htm]
+ModuleType=TURLModule
 
 [EditWindow0]
 ViewCount=7
@@ -98,8 +98,8 @@ EditViewName=C:\Users\p.wojcik\Desktop\PlayerProject\Player.Common.pas
 [View2]
 CustomEditViewType=TEditView
 Module=C:\Users\p.wojcik\Desktop\PlayerProject\DUnit\Tests.pas
-CursorX=37
-CursorY=6
+CursorX=14
+CursorY=9
 TopLine=1
 LeftCol=1
 Bookmarks=
@@ -191,8 +191,8 @@ Create=1
 Visible=1
 Docked=0
 State=2
-Left=146
-Top=271
+Left=729
+Top=3430
 Width=8932
 Height=8527
 MaxLeft=-5
@@ -276,11 +276,11 @@ MaxLeft=-1
 MaxTop=-1
 ClientWidth=1896
 ClientHeight=3149
-TBDockHeight=8721
+TBDockHeight=5194
 LRDockWidth=1896
 Dockable=1
 StayOnTop=0
-SplitPos=116
+SplitPos=111
 
 [frmDesignPreview]
 PercentageSizes=1
@@ -291,11 +291,11 @@ State=0
 Left=0
 Top=0
 Width=2000
-Height=8450
+Height=2907
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
-ClientHeight=8450
+ClientHeight=2907
 TBDockHeight=5959
 LRDockWidth=2510
 Dockable=1
@@ -307,8 +307,8 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=-1528
-Top=243
+Left=0
+Top=0
 Width=276
 Height=359
 MaxLeft=-1
@@ -477,11 +477,11 @@ State=0
 Left=0
 Top=0
 Width=2000
-Height=8450
+Height=0
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
-ClientHeight=8450
+ClientHeight=0
 TBDockHeight=4884
 LRDockWidth=7151
 Dockable=1
@@ -493,8 +493,8 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=380
-Top=809
+Left=0
+Top=0
 Width=2854
 Height=3207
 MaxLeft=-1
@@ -512,8 +512,8 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=-8
-Top=-124
+Left=-406
+Top=-451
 Width=1849
 Height=3140
 MaxLeft=-1
@@ -617,11 +617,11 @@ State=0
 Left=0
 Top=0
 Width=2000
-Height=8450
+Height=0
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
-ClientHeight=8450
+ClientHeight=0
 TBDockHeight=4884
 LRDockWidth=5307
 Dockable=1
@@ -636,11 +636,11 @@ State=0
 Left=0
 Top=0
 Width=948
-Height=8450
+Height=0
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=948
-ClientHeight=8450
+ClientHeight=0
 TBDockHeight=3682
 LRDockWidth=1896
 Dockable=1
@@ -700,8 +700,8 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=0
-Top=28
+Left=8
+Top=8
 Width=3823
 Height=1415
 MaxLeft=-1
@@ -732,7 +732,7 @@ MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
 ClientHeight=4545
-TBDockHeight=8721
+TBDockHeight=4603
 LRDockWidth=2000
 Dockable=1
 StayOnTop=0
@@ -756,7 +756,7 @@ MaxLeft=-1
 MaxTop=-1
 ClientWidth=1896
 ClientHeight=3498
-TBDockHeight=8721
+TBDockHeight=3556
 LRDockWidth=1896
 Dockable=1
 StayOnTop=0
@@ -780,7 +780,7 @@ MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
 ClientHeight=2103
-TBDockHeight=8721
+TBDockHeight=4147
 LRDockWidth=2000
 Dockable=1
 StayOnTop=0
@@ -789,5 +789,5 @@ ActiveTabID=ToolForm
 TabDockClients=ToolForm,TemplateView
 
 [ActiveProject]
-ActiveProject=2
+ActiveProject=1
 

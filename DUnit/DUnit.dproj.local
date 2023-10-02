@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.928,C:\Users\p.wojcik\Desktop\PlayerProject\DUnit\Unit1.pas=C:\Users\p.wojcik\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.022,=C:\Users\p.wojcik\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023.09.21 09:20:33.851,=C:\Users\p.wojcik\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023.09.21 09:20:51.928,C:\Users\p.wojcik\Desktop\PlayerProject\DUnit\Unit1.pas=C:\Users\p.wojcik\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023.09.21 09:21:07.477,C:\Users\p.wojcik\Desktop\PlayerProject\DUnit\DUnit.dproj=C:\Users\p.wojcik\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2023.09.21 09:22:02.597,C:\Users\p.wojcik\Desktop\PlayerProject\DUnit\Tests.pas=C:\Users\p.wojcik\Desktop\PlayerProject\DUnit\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.851,=C:\Users\p.wojcik\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.477,C:\Users\p.wojcik\Desktop\PlayerProject\DUnit\DUnit.dproj=C:\Users\p.wojcik\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.597,C:\Users\p.wojcik\Desktop\PlayerProject\DUnit\Tests.pas=C:\Users\p.wojcik\Desktop\PlayerProject\DUnit\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>
